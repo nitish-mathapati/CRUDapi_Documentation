@@ -68,6 +68,7 @@
             return res.send("Did not update the data")
         }
     })
+    
 
     //Delete by item
     server.delete('/getGrocery/delete/:item', async function (req,res) {
